@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+#jaza{
+    color:gold;
+}
+#logo{
+    width:79px;
+}
+#navbar{
+    background-color:rgb(13, 63, 114);
+    height:90px
+}
+#navbarNav{
+    color:gold;
+    justify-content:space-evenly;
+}
+#navlinks>li{
+    color:gold;
+    margin:28px;
+    font-size: x-large;
+}
+#link1,#link2,#link3,#link4{
+    color:gold;
+}
+.sign{
+    background-color:goldenrod;
+}
