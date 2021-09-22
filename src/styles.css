@@ -2,7 +2,10 @@
 
 @import "~bootstrap/dist/css/bootstrap.css";
 
-
+nav{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
 #jaza{
     color:gold;
 }
@@ -19,7 +22,7 @@
 }
 #navlinks>li{
     color:gold;
-    margin:28px;
+    margin:5px;
     font-size: x-large;
 }
 #link1,#link2,#link3,#link4{
@@ -27,4 +30,20 @@
 }
 .sign{
     background-color:goldenrod;
+}
+/* footer */
+.card{
+    background-color:rgb(13, 63, 114)
+}
+.card-header{
+    color:gold;
+    padding-left:40%;
+}
+#foot1{
+    color:gold;
+    padding-left:40%;
+    font-size:larger;
+}
+.terms:hover{
+    color:lightgreen;
 }
