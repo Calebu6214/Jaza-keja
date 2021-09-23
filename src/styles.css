@@ -65,3 +65,7 @@ h5{
 .d-block{
     height:350px;
 }
+.kitchen>li{
+    display: flex;
+    flex-direction: row;
+}
