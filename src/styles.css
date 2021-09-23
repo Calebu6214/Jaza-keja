@@ -53,3 +53,12 @@ h5{
     color:black;
     font-size:xx-large;
 }
+.green{
+    color:rgb(2, 68, 2);
+    font-weight:bold;
+    font-size:large;
+}
+.carousel{
+    margin-bottom: 6%;
+    background-color:olive
+}
