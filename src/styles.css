@@ -65,7 +65,17 @@ h5{
 .d-block{
     height:350px;
 }
-.kitchen>li{
+.images-container{
     display: flex;
-    flex-direction: row;
+}
+.images-container>img{
+    margin: 15px;
+    height: 250px;
+    width: 300px;
+}
+h6{
+    font-size: larger;
+    font-weight:300;
+    font-style: oblique;
+    color:green;
 }
