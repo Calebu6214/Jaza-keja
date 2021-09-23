@@ -65,17 +65,21 @@ h5{
 .d-block{
     height:350px;
 }
-.images-container{
+.images{
     display: flex;
+    justify-content: center;
+    padding: 5px;
 }
-.images-container>img{
-    margin: 15px;
+.images>img{
+    margin: 25px;
     height: 250px;
-    width: 300px;
+    width: 32%;
 }
 h6{
     font-size: larger;
     font-weight:300;
     font-style: oblique;
     color:green;
+    margin-left: 40%;
+    text-decoration: underline;
 }
