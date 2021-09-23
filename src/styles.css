@@ -47,3 +47,9 @@ nav{
 .terms:hover{
     color:lightgreen;
 }
+
+/* body */
+h5{
+    color:black;
+    font-size:xx-large;
+}
