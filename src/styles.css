@@ -31,6 +31,9 @@ nav{
 .sign{
     background-color:goldenrod;
 }
+#card2{
+    background-color:wheat;
+}
 /* footer */
 .card{
     background-color:rgb(13, 63, 114)
@@ -76,12 +79,20 @@ h5{
     width: 32%;
 }
 h6{
-    font-size: larger;
+    font-size: x-large;
     font-weight:300;
     font-style: oblique;
     color:green;
     margin-left: 40%;
     text-decoration: underline;
 }
+.form-label{
+    color:black;
+    font-size: large;
+    font-weight:400;
+    
+}
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+

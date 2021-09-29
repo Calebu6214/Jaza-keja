@@ -11,9 +11,10 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatButtonModule} from '@angular/material/button';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatIconModule } from '@angular/material/icon';
+// import { MatButtonModule} from '@angular/material/button';
+// import { MatToolbarModule } from '@angular/material/toolbar';
+// import { MatIconModule } from '@angular/material/icon';
+import {FormsModule} from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
@@ -24,31 +25,37 @@ import { MatInputModule } from '@angular/material/input';
     BodyComponent,
     LoginComponent,
     RegisterComponent,
-    CommonModule,
-    MatButtonModule,
-    MatToolbarModule,
-    MatIconModule,
-    MatInputModule,
-    MatFormFieldModule
+    // CommonModule,
+    // MatButtonModule,
+    // MatToolbarModule,
+    // MatIconModule,
+    // MatInputModule,
+    // MatFormFieldModule,
+    // ReactiveFormsModule,
+    // MaterialModule,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    CommonModule,
-    MatButtonModule,
-    MatToolbarModule,
-    MatIconModule,
-    MatInputModule,
+    // CommonModule,
+    // ReactiveFormsModule,
+    // MatButtonModule,
+    // MatToolbarModule,
+    // MatIconModule,
+    // MatInputModule,
+    // FormsModule,
     MatFormFieldModule
   ],
   exports: [
     CommonModule,
-    MatButtonModule,
-    MatToolbarModule,
-    MatIconModule,
-    MatInputModule,
-    MatFormFieldModule
+    // MatButtonModule,
+    // MatToolbarModule,
+    // MatIconModule,
+    // MatInputModule,
+    // MatFormFieldModule,
+    // ReactiveFormsModule
+    // FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
