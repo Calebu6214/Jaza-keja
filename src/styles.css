@@ -92,6 +92,22 @@ h6{
     font-weight:400;
     
 }
+/* regform */
+.input-field{
+    padding: 15px;
+}
+#reg{
+    margin:25px ;
+}
+.input{
+    padding: 5px;
+    width:50%;
+    margin: 5px
+}
+#sub{
+    padding: 10px;
+    margin-left: 30px;
+}
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
