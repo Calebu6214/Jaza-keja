@@ -16,6 +16,11 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 // import { MatIconModule } from '@angular/material/icon';
 import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
+import {HttpClientModule} from '@angular/common/http'
+// import { inspect } from 'util';
+// import { url } from 'inspector';
+import { UrlResolver } from '@angular/compiler';
+// import { Server } from 'http';
 
 @NgModule({
   declarations: [
@@ -45,7 +50,9 @@ import { MatInputModule } from '@angular/material/input';
     // MatIconModule,
     MatInputModule,
     FormsModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    HttpClientModule
+    // UrlResolver,
   ],
   exports: [
     CommonModule,
@@ -55,7 +62,8 @@ import { MatInputModule } from '@angular/material/input';
     MatInputModule,
     MatFormFieldModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

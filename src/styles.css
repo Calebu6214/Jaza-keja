@@ -30,6 +30,8 @@ nav{
 }
 .sign{
     background-color:goldenrod;
+    padding:10px;
+    margin: 8px;
 }
 #card2{
     background-color:wheat;

@@ -39,13 +39,15 @@
       <div class="sm-jumbotron center-align">
         <h4>User Registration</h4>
       </div>
-      <form class="col s12 white"  method="POST" #UserRegistrationForm="ngForm" validate>
+      <form class="col s12 white" [formGroup]="form" method="POST" (submit)='submit()'  validate>
         <!-- (ngSubmit)="onSubmit()" -->
         <!-- [formGroup]="registerForm" -->
         <div class="row">
         <div class="input-field col s6" >
           <label for="">User Name</label>
-          <input type="text" class="input" name="username" #username="ngModel" [(ngModel)]="user.username" required>  
+          <input type="text" class="input" formControlName="username" name="username"   required> 
+          <!-- [(ngModel)]="user.username"  -->
+          <!-- #username="ngModel" -->
         </div>
         <!-- <mat-form-field> -->
           <!-- <input matInput placeholder="pat@example.com"  required> -->
@@ -55,15 +57,15 @@
         </div>
         <div class="row">
           <div class="input-field col s6" >
-            <label for="">Password</label>
-            <input type="password" class="input" name="password" #password="ngModel" [(ngModel)]="user.password" required>
+            <label for="">Password</label> 
+            <input type="password" class="input" formControlName="password" name="password" required>
             
           </div>
         </div>
         <div class="row">
           <div class="input-field col s6" >
             <label for="">Email</label>
-            <input class="input" type="text" name="email" #email="ngModel" [(ngModel)]="user.email" required>
+            <input class="input" type="text" formControlName="email" name="email" required>
             
           </div>
         </div>
@@ -79,7 +81,7 @@
         </div> -->
         <div class="row">
           <div class="input-field col s12">
-            <button class="btn-large btn-primary" [disabled]="!UserRegistrationForm.valid" id="sub" type="submit">Submit</button>
+            <button class="btn-large btn-primary"  id="sub" type="submit">Register</button>
           </div>
         </div>
       </form>

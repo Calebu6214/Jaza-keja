@@ -20,14 +20,28 @@
           <li class="nav-item">
             <a class="nav-link active" id="link4" href="#" tabindex="-1" aria-label="true">Furnitures</a>
           </li>
+       
+        </ul>
+        <ul class="navbar-nav  mb-2 mb-md-0" *ngIf="!authenticated">
           <li class="nav-item">
-            <a mat-raised-button routerLink="/app-login" href="#" class="sign">Register/Login</a>
+            <a mat-raised-button routerLink="/app-login" href="#" class="sign">Login</a>
             <!-- <button class="sign">Login</button> -->
           </li>
           <li class="nav-item">
-            <!-- <a mat-raised-button routerLink="/app-register" href="#" class="sign" >Sign up</a> -->
+            <a mat-raised-button routerLink="/app-register" href="#" class="sign" >Sign up</a>
             <!-- <button class="sign">Sign Up</button> -->
           </li>
+        </ul>
+
+        <ul class="navbar-nav  mb-2 mb-md-0" *ngIf="authenticated">
+          <li class="nav-item">
+            <a mat-raised-button routerLink="/app-login" href="#" class="sign" (click)="logout()">Logout</a>
+            <!-- <button class="sign">Login</button> -->
+          </li>
+          <!-- <li class="nav-item"> -->
+            <!-- <a mat-raised-button routerLink="/app-register" href="#" class="sign" >Sign up</a> -->
+            <!-- <button class="sign">Sign Up</button> -->
+          <!-- </li> -->
         </ul>
       </div>
     </div>
